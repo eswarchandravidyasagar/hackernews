@@ -27,7 +27,7 @@ def get_top_stories(limit=100):
         return []
 
 # Streamlit app
-st.title("Today's Top 20 Hacker News Stories")
+st.title("  Top 20 latest  Hacker News Stories")
 
 # Fetch and display stories
 top_stories = get_top_stories()
